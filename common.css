@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Ubuntu", "Helvetica Neue", sans-serif;
+  color: rgb(34, 34, 34);
+  overflow: auto;
+}
+
+h1, h2, strong {
+  color: #333;
+}
+
+.page {
+  padding: 1rem;
+  max-width: 62rem;
+  /* Center the content horizontally. */
+  margin: auto;
+
+  background-color: white;
+}
+
+.align-center {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+#dev-site-banner {
+  width: 100%;
+  text-align: center;
+  background-color: #ff851b;
+  line-height: 40px;
+}
+
+.message {
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+}
+
+.message.error {
+  background-color: #FF4136;
+}
+
+.message.success {
+  background-color: #2ECC40;
+}
+
+#nav {
+  position: static;
+}
+
+#nav img {
+  border-radius: 50%;
+}
+
+#nav a  {
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+}
+
+.subscribe-inset p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.subscribe-inset .input-email {
+  max-width: 400px;
+  width: 95%;
+}

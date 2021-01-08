@@ -1,0 +1,11 @@
+.page {
+    line-height: 1.5;
+    max-width: 40rem;
+  }
+  
+  #headshot {
+    display: block;
+    border-radius: 100%;
+    height: 100px;
+    margin-bottom: 25px;
+  }
